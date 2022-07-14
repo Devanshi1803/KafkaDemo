@@ -5,7 +5,7 @@
 	->put downloaded jar in "/usr/local/kafka/libs/" folder
 	->to compile: $javac -cp "/usr/local/kafka/libs/*" src/ProducerApplication.java
 -> to run
-	-> $java -cp “/usr/local/kafka/libs/*" src/ProducerApplication <topic name, here testTopic>
+	-> $java -cp “/usr/local/kafka/libs/*":. src/ProducerApplication <topic name, here testTopic>
 	
 	
 Same way compile and run consumer
