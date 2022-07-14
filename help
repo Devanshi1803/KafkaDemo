@@ -1,0 +1,12 @@
+-> java producer application: ProducerApplication.java
+-> to compile
+	->put "/usr/local/kafka/libs/*" in setting.json
+	->download kafka-clients from https://mvnrepository.com/artifact/org.apache.kafka/kafka-clients
+	->put downloaded jar in "/usr/local/kafka/libs/" folder
+	->to compile: $javac -cp "/usr/local/kafka/libs/*" src/ProducerApplication.java
+-> to run
+	-> $java -cp “/usr/local/kafka/libs/*" src/ProducerApplication <topic name, here testTopic>
+	
+	
+Same way compile and run consumer
+
